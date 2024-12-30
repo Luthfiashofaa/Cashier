@@ -1,0 +1,40 @@
+name: cashier
+version: 1.0.0+1
+publish_to: none
+description: A new Flutter project.
+environment: 
+  sdk: '>=3.2.6 <4.0.0'
+
+dependencies:
+  intl: ^0.18.0 
+  printing: ^5.9.0
+  path_provider: ^2.0.0
+  firebase_storage: ^11.2.2
+  image_picker: ^0.8.4+4
+  cloud_firestore: ^4.15.8
+  firebase_auth: ^4.7.3
+  firebase_core: ^2.15.1
+  cupertino_icons: ^1.0.2
+  shared_preferences: ^2.2.0
+  smooth_page_indicator: ^1.2.0+3
+  get: 4.6.6
+  flutter_map: ^5.0.0
+  latlong2: ^0.9.0
+  flutter: 
+    sdk: flutter
+
+dev_dependencies: 
+  flutter_lints: ^2.0.0
+  flutter_test: 
+    sdk: flutter
+
+flutter: 
+  uses-material-design: true
+  assets:
+  - assets/
+  - assets/friedchicken.jpg
+  - assets/friedchicken dan nasi.jpg
+  - assets/friedchicken dan nasi dan teh.jpg
+  - assets/ayam geprek.png
+
+
